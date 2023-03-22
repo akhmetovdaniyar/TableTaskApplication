@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:background="@drawable/border">
+
+    <TextView
+            android:text=""
+            android:layout_weight="1"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text=""
+            android:layout_weight="1"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/first"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/second"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/third"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/fourth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/fifth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/sixth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/seventh"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/total_points"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/place"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_one"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/first"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text=""
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <EditText
+            android:id="@+id/r1c2"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r1c3"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r1c4"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r1c5"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r1c6"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r1c7"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/r1summ"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/r1plc"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_second"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/second"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <EditText
+            android:id="@+id/r2c1"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <EditText
+            android:id="@+id/r2c3"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r2c4"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r2c5"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r2c6"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r2c7"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/r2summ"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/r2plc"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_third"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/third"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <EditText
+            android:id="@+id/r3c1"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r3c2"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <EditText
+            android:id="@+id/r3c4"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r3c5"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r3c6"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r3c7"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/r3summ"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            android:layout_weight="2"/>
+        <TextView
+            android:id="@+id/r3plc"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            android:layout_weight="2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_fourth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/fourth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <EditText
+            android:id="@+id/r4c1"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r4c2"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r4c3"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <EditText
+            android:id="@+id/r4c5"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r4c6"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r4c7"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/r4summ"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/r4plc"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_fifth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/fifth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <EditText
+            android:id="@+id/r5c1"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r5c2"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r5c3"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r5c4"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <EditText
+            android:id="@+id/r5c6"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r5c7"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/r5summ"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/r5plc"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_sixth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/sixth"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <EditText
+            android:id="@+id/r6c1"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r6c2"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r6c3"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r6c4"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r6c5"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <EditText
+            android:id="@+id/r6c7"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/r6summ"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/r6plc"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/player_seventh"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:text="@string/seventh"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <EditText
+            android:id="@+id/r7c1"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r7c2"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r7c3"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r7c4"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r7c5"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/r7c6"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/black"/>
+        <TextView
+            android:id="@+id/r7summ"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/r7plc"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refresh" />
+
+</TableLayout>

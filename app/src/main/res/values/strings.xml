@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TableTaskApplication</string>
+    <string name="refresh">Обновить</string>
+    <string name="total_points">Сумма очков</string>
+    <string name="place">Место</string>
+    <string name="first">1</string>
+    <string name="second">2</string>
+    <string name="third">3</string>
+    <string name="fourth">4</string>
+    <string name="fifth">5</string>
+    <string name="sixth">6</string>
+    <string name="seventh">7</string>
+    <string name="player_one">Участник 1</string>
+    <string name="player_second">Участник 2</string>
+    <string name="player_third">Участник 3</string>
+    <string name="player_fourth">Участник 4</string>
+    <string name="player_fifth">Участник 5</string>
+    <string name="player_sixth">Участник 6</string>
+    <string name="player_seventh">Участник 7</string>
+    <string name="post">x</string>
+</resources>
